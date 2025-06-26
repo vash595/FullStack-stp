@@ -1,0 +1,262 @@
+<html>
+    <head>
+        <title>Table2</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>Primary Detail</legend>
+                <table>
+                    <tr>
+        <td><label>Child's Name:</label></td>
+        <td><label>Child's Date Of Birth:</label></td>
+        <td><label>Child's Gender</label></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="childname" placeholder="Enter child's name" size="27"></td>
+        <td><input type="text" name="age" placeholder="DD/MM/YYYY" min="0" max="13" size="27"></td>
+        
+        <td>
+          <select name="Gender">
+            <option value="" disabled selected>Select Gender</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Others</option>
+            </select>
+            </td>
+      </tr>
+                </table>
+            </fieldset>
+
+            <fieldset>
+                <legend>Participation Information</legend>
+                <table>
+                    <tr>
+        <td><label>Parent's Name:</label></td>
+        <td><label>Parent's Mob No:</label></td>
+        <td><label>E-mail Id</label></td>
+      </tr>
+      <tr>
+        <td>
+          <select name="Parent's Name">
+           
+            <option>Mr</option>
+            <option>Mrs</option>
+            <input type="text" name="Parent's Name" placeholder="Enter Parent's name" size="27">
+            
+            </select>
+            </td>
+        
+        <td><input type="number" name="numP" placeholder="Enter Number" size="37"></td>
+        
+        <td><input type="email" name="txtemail" placeholder="Email id" value="" size="27"></td>
+            
+      </tr>
+      <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+  </tr>
+      
+
+      <tr>
+       <td><label>House no./Building Name:</label></td>
+        <td><label>Street:</label></td>
+        <td><label>Locality</label></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="txtBuilding" placeholder="House no./Building Name" value="" size="34"></td>
+        <td><input type="text" name="txtStreet" placeholder="Street" value="" size="27"></td>
+        
+        <td><input type="text" name="txtlocality" placeholder="Locality" value="" size="27"></td>
+          
+            
+      </tr>
+
+      <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+       </tr>
+
+       <tr>
+        <td><label>State:</label></td>
+        <td><label>City:</label></td>
+        <td><label>Pin Code</label></td>
+      </tr>
+      <tr>
+    
+        <td>
+          <select name="state" required>
+  <option value="" disabled selected>Select State</option>
+  <option value="andhra_pradesh">Andhra Pradesh</option>
+  <option value="arunachal_pradesh">Arunachal Pradesh</option>
+  <option value="assam">Assam</option>
+  <option value="bihar">Bihar</option>
+  <option value="chhattisgarh">Chhattisgarh</option>
+  <option value="goa">Goa</option>
+  <option value="gujarat">Gujarat</option>
+  <option value="haryana">Haryana</option>
+  <option value="himachal_pradesh">Himachal Pradesh</option>
+  <option value="jharkhand">Jharkhand</option>
+  <option value="karnataka">Karnataka</option>
+  <option value="kerala">Kerala</option>
+  <option value="madhya_pradesh">Madhya Pradesh</option>
+  <option value="maharashtra">Maharashtra</option>
+  <option value="manipur">Manipur</option>
+  <option value="meghalaya">Meghalaya</option>
+  <option value="mizoram">Mizoram</option>
+  <option value="nagaland">Nagaland</option>
+  <option value="odisha">Odisha</option>
+  <option value="punjab">Punjab</option>
+  <option value="rajasthan">Rajasthan</option>
+  <option value="sikkim">Sikkim</option>
+  <option value="tamil_nadu">Tamil Nadu</option>
+  <option value="telangana">Telangana</option>
+  <option value="tripura">Tripura</option>
+  <option value="uttar_pradesh">Uttar Pradesh</option>
+  <option value="uttarakhand">Uttarakhand</option>
+  <option value="west_bengal">West Bengal</option>
+  <option value="andaman_nicobar">Andaman and Nicobar Islands</option>
+  <option value="chandigarh">Chandigarh</option>
+  <option value="dadra_nagar_haveli">Dadra and Nagar Haveli and Daman and Diu</option>
+  <option value="delhi">Delhi</option>
+  <option value="jammu_kashmir">Jammu and Kashmir</option>
+  <option value="ladakh">Ladakh</option>
+  <option value="lakshadweep">Lakshadweep</option>
+  <option value="puducherry">Puducherry</option>
+</select>
+
+            </td>
+        
+        <td>
+          <select name="city" required>
+  <option value="" disabled selected>Select City</option>
+  <option value="mumbai">Mumbai</option>
+  <option value="delhi">Delhi</option>
+  <option value="bengaluru">Bengaluru</option>
+  <option value="hyderabad">Hyderabad</option>
+  <option value="ahmedabad">Ahmedabad</option>
+  <option value="chennai">Chennai</option>
+  <option value="kolkata">Kolkata</option>
+  <option value="pune">Pune</option>
+  <option value="jaipur">Jaipur</option>
+  <option value="surat">Surat</option>
+  <option value="lucknow">Lucknow</option>
+  <option value="kanpur">Kanpur</option>
+  <option value="nagpur">Nagpur</option>
+  <option value="indore">Indore</option>
+  <option value="bhopal">Bhopal</option>
+  <option value="visakhapatnam">Visakhapatnam</option>
+  <option value="thane">Thane</option>
+  <option value="patna">Patna</option>
+  <option value="vadodara">Vadodara</option>
+  <option value="ghaziabad">Ghaziabad</option>
+  <option value="ludhiana">Ludhiana</option>
+  <option value="agra">Agra</option>
+  <option value="nashik">Nashik</option>
+  <option value="faridabad">Faridabad</option>
+  <option value="meerut">Meerut</option>
+  <option value="rajkot">Rajkot</option>
+  <option value="varanasi">Varanasi</option>
+  <option value="srinagar">Srinagar</option>
+  <option value="amritsar">Amritsar</option>
+  <option value="ranchi">Ranchi</option>
+  <option value="coimbatore">Coimbatore</option>
+  <option value="jodhpur">Jodhpur</option>
+  <option value="madurai">Madurai</option>
+  <option value="guwahati">Guwahati</option>
+  <option value="mysore">Mysore</option>
+  <option value="noida">Noida</option>
+  <option value="allahabad">Allahabad</option>
+  <option value="howrah">Howrah</option>
+  <option value="gwalior">Gwalior</option>
+  <option value="vijayawada">Vijayawada</option>
+  <option value="kota">Kota</option>
+  <option value="chandigarh">Chandigarh</option>
+  <option value="trivandrum">Thiruvananthapuram</option>
+  <option value="hubli">Hubli–Dharwad</option>
+  <option value="jalandhar">Jalandhar</option>
+  <option value="dehradun">Dehradun</option>
+  <option value="aurangabad">Aurangabad</option>
+  <option value="kolhapur">Kolhapur</option>
+  <option value="salem">Salem</option>
+  <option value="bareilly">Bareilly</option>
+</select>
+
+            </td>
+
+            <td><input type="number" name="numPC" placeholder="Pin Code" value="" size="50"></td>
+      </tr>
+      <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+       </tr>
+
+      <tr>
+        <td><label>Username:</label></td>
+        <td><label>Password:</label></td>
+        <td><label>Confirm Password</label></td>
+      </tr>
+      <tr>
+        <td><input type="text" name="txtUn" placeholder="Enter Username" size="34"></td>
+        <td><input type="password" name="numPW" placeholder="Enter Password" value="" size="27" required></td>
+        
+        <td><input type="password" name="numPW" placeholder="Enter Password" value="" size="27" required></td>
+          
+            
+      </tr>
+
+      <tr>
+
+      <td>
+          <input type="checkbox" name="agreement" required> Are you a max life employee or Agent Advisor
+        </td>
+        </tr>
+
+      <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+      </tr>
+
+      <tr>
+        
+        <td><label>Where did you hear about us*</label></td>
+      </tr>
+      <tr>
+        
+        <td colspan="3">
+          <select name="HearboutUs">
+            <option value="" disabled selected>Select</option>
+            <option>From a Friend</option>
+            <option>On social media such as instagram , facebook, twitter, snapchat, youtube, whatsapp, or some other sources not mentioned   </option>
+            <option>From roadside banner</option>
+            <option>From a relative</option>
+            <option>From school</option>
+            </select>
+            </td>
+      </tr>
+
+      <tr>
+
+      <td>
+          <input type="checkbox" name="agreement" required> I agree to terms and condition
+        </tr>
+
+        <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+      </tr>
+
+      <tr>
+    <td colspan="2">&nbsp;</td> <!-- ← Spacer row -->
+      </tr>
+
+        <tr>
+        <td colspan="2" style="text-align: left;">
+          
+
+          <button type="submit">Register</button>
+          
+        </td>
+      </tr>
+
+
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>
