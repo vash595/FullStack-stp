@@ -1,0 +1,172 @@
+.box1{
+    
+       border: 2px solid rgb(228, 228, 228);
+  padding: 200px;
+  width: 1700px;
+  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* shadow */
+  margin:50;
+}
+.box2{
+    
+       border: 2px solid rgb(255, 255, 255);
+       background-color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-bottom: 60px;
+  border-radius: 20px;
+
+  width: 1000px;
+  
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2); /* shadow */
+  
+}
+.box3{
+    
+       border: 2px solid rgb(228, 228, 228);
+  padding: 20px;
+  width: 1000px;
+  background-color: white;
+  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* shadow */
+  border-radius: 15px;
+  
+}
+.outerbox3{
+  background-color: rgb(239, 239, 239);
+  
+  padding-left: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;  
+}
+.outerbox2{
+  background-color: rgb(255, 255, 255);
+  
+  padding-left: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.outerbox4{
+
+  width: 1685px;
+  margin: 0;
+      
+  background-color: rgb(5, 19, 74);
+  
+ 
+  
+}
+body {
+  margin: 0; /* remove default browser margin */
+}
+
+.form1{
+  background-color: rgb(0, 0, 102);
+}
+
+
+
+.outerbox5{
+  background-color: rgb(255, 255, 255);
+  
+  padding-left: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.box5{
+    
+       border: 2px solid rgb(228, 228, 228);
+  padding: 1000px;
+  width: 1780px;
+  
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2); /* shadow */
+  margin:50;
+}
+
+#jn::before{
+  content: url('tick1.png')
+}
+
+.box6{
+  margin-left: 275px
+  
+  
+}
+
+.outerbox6{
+  background-color: rgb(239, 239, 239);
+}
+
+#plc{
+  border-radius: 15px;
+  border-color: rgb(178, 178, 178);
+  background-color: white;
+}
+
+#emp{
+  border-color: white;
+  border-top: white;
+  border-left: white;
+}
+
+#tb{
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-bottom: white;
+}
+
+.box7{
+  padding: 150px;
+}
+
+#ob{
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.outerbox7{
+
+  background-color: rgb(239, 239, 239);
+}
+
+.box8{
+  margin-left: 650px;
+  margin-right: 225px;
+  box-shadow: 15px rgb(236, 1, 1);
+  border-radius: 15px;
+  
+}
+
+.box9{
+  margin-left: 225px;
+  margin-right: 225px;
+  box-shadow: 15px rgb(236, 1, 1);
+  border-radius: 15px;
+  
+}
+
+.box10{
+  margin-left: 225px;
+  margin-right: 225px;
+
+}
+
+.outerbox10{
+  background-color: #060270;
+}
+
+#plc:hover{
+  border-color: orange;
+  box-shadow: 0 4px 12px rgb(77, 77, 77);
+}
+
+.bl:hover{
+  background-color: #060270;
+  color: white;
+}
+
+
+#gr1:hover{
+  background-color: rgb(216, 209, 255);
+}
