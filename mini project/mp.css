@@ -1,0 +1,60 @@
+.hover-box {
+  background-color: rgb(255, 255, 255);
+  height: 100px;
+  border-radius: 95px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.hover-box:hover {
+  background: linear-gradient(to bottom, orange, red);
+  cursor: pointer;
+}
+
+.border-box {
+  box-shadow: black;
+}
+
+.hover-shadow-img {
+  border-radius: 15px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.hover-shadow-img:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+
+button, .btn {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+
+.border-box, .hover-box {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.border-box:hover, .hover-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.img-hover-scale {
+  transition: transform 0.3s cubic-bezier(.4,2,.6,1);
+  will-change: transform;
+}
+.img-hover-scale:hover {
+  transform: scale(1.08);
+  z-index: 2;
+}
